@@ -12,7 +12,7 @@ Configuration:
       - name: log.path
         value: /Users/paul/Desktop/log
       - name: project.name
-        value: logtest
+        value: ${spring:spring.application.name}
 
   Appenders:
     Console:  #输出到控制台

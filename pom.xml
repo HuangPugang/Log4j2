@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.hp.leopard</groupId>
-    <artifactId>logger</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>logger2</artifactId>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>logger</name>
@@ -51,6 +51,19 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/net.kencochrane.raven/raven-log4j -->
+        <dependency>
+            <groupId>net.kencochrane.raven</groupId>
+            <artifactId>raven-log4j2</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -80,9 +93,9 @@
     </build>
     <distributionManagement>
         <repository>
-            <id>local</id>
+            <id>test</id>
             <name>Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
         </repository>
 
     </distributionManagement>

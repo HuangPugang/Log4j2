@@ -1,4 +1,11 @@
+
 logging:
   config: "classpath:log4j2-spring.yml"
+#  config: https://raw.githubusercontent.com/HuangPugang/springboot-demo/master/config/log4j2-spring.yml
   sentry:
     enabled: false
+
+
+spring:
+  application:
+    name: minchegn
