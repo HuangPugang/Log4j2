@@ -1,2 +1,2 @@
 org.springframework.context.ApplicationListener=\
-org.hp.leopard.BootListener
+org.hp.leopard.context.BootListener

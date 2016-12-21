@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016, 59store. All rights reserved.
  */
-package org.hp.leopard;
+package org.hp.leopard.context;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;

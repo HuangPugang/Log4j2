@@ -10,7 +10,7 @@ Configuration:
       - name: log.level.xjj
         value: trace
       - name: log.path
-        value: /Users/paul/Desktop/log
+        value: /Users/Paul/Desktop/log
       - name: project.name
         value: ${spring:spring.application.name}
 

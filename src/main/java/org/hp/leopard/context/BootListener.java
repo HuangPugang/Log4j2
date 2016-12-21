@@ -1,4 +1,4 @@
-package org.hp.leopard;
+package org.hp.leopard.context;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
@@ -6,7 +6,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.event.SmartApplicationListener;
 import org.springframework.core.Ordered;
-import org.springframework.stereotype.Component;
 
 /**
  * Created by paul on 16/12/21.

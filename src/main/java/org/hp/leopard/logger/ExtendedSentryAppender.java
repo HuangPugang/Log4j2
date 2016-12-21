@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016, 59store. All rights reserved.
  */
-package org.hp.leopard;
+package org.hp.leopard.logger;
 
 import net.kencochrane.raven.Raven;
 import net.kencochrane.raven.log4j2.SentryAppender;
