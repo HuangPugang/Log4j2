@@ -10,7 +10,7 @@ import org.springframework.core.Ordered;
 /**
  * Created by paul on 16/12/21.
  */
-public class BootListener implements SmartApplicationListener {
+public class EnvironmentPreparedListener implements SmartApplicationListener {
     private int order = Ordered.HIGHEST_PRECEDENCE + 10;
 
     private static Class<?>[] EVENT_TYPES = {ApplicationEnvironmentPreparedEvent.class};
